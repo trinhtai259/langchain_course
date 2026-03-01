@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_google_genai import GoogleGenerativeAI
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 load_dotenv()
 
